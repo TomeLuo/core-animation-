@@ -15,6 +15,8 @@
 		C3855E891C438E7C00853F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3855E871C438E7C00853F77 /* LaunchScreen.storyboard */; };
 		C3855E941C438E7C00853F77 /* core_animation__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3855E931C438E7C00853F77 /* core_animation__Tests.m */; };
 		C3855E9F1C438E7C00853F77 /* core_animation__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3855E9E1C438E7C00853F77 /* core_animation__UITests.m */; };
+		C3855EAD1C438EA300853F77 /* pp.png in Resources */ = {isa = PBXBuildFile; fileRef = C3855EAC1C438EA300853F77 /* pp.png */; };
+		C3855EB01C43933600853F77 /* bg_start.png in Resources */ = {isa = PBXBuildFile; fileRef = C3855EAF1C43933600853F77 /* bg_start.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C3855E9A1C438E7C00853F77 /* core animation动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "core animation动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3855E9E1C438E7C00853F77 /* core_animation__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = core_animation__UITests.m; sourceTree = "<group>"; };
 		C3855EA01C438E7C00853F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3855EAC1C438EA300853F77 /* pp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pp.png; sourceTree = "<group>"; };
+		C3855EAF1C43933600853F77 /* bg_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_start.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		C3855E781C438E7C00853F77 /* core animation动画 */ = {
 			isa = PBXGroup;
 			children = (
+				C3855EAF1C43933600853F77 /* bg_start.png */,
+				C3855EAC1C438EA300853F77 /* pp.png */,
 				C3855E7C1C438E7C00853F77 /* AppDelegate.h */,
 				C3855E7D1C438E7C00853F77 /* AppDelegate.m */,
 				C3855E7F1C438E7C00853F77 /* ViewController.h */,
@@ -207,6 +213,7 @@
 				TargetAttributes = {
 					C3855E751C438E7C00853F77 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8V6YYUS7E9;
 					};
 					C3855E8E1C438E7C00853F77 = {
 						CreatedOnToolsVersion = 7.2;
@@ -244,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3855E891C438E7C00853F77 /* LaunchScreen.storyboard in Resources */,
+				C3855EAD1C438EA300853F77 /* pp.png in Resources */,
+				C3855EB01C43933600853F77 /* bg_start.png in Resources */,
 				C3855E861C438E7C00853F77 /* Assets.xcassets in Resources */,
 				C3855E841C438E7C00853F77 /* Main.storyboard in Resources */,
 			);
@@ -411,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V6YYUS7E9;
 				INFOPLIST_FILE = "core animation动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cfbb.ios.core-animation--";
@@ -422,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V6YYUS7E9;
 				INFOPLIST_FILE = "core animation动画/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cfbb.ios.core-animation--";
@@ -496,6 +507,7 @@
 				C3855EA51C438E7C00853F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3855EA61C438E7C00853F77 /* Build configuration list for PBXNativeTarget "core animation动画Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +516,7 @@
 				C3855EA81C438E7C00853F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3855EA91C438E7C00853F77 /* Build configuration list for PBXNativeTarget "core animation动画UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +525,7 @@
 				C3855EAB1C438E7C00853F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
